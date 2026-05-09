@@ -35,7 +35,7 @@ export function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
+        <Link href="/" className="flex items-center gap-2 group flex-shrink-0 mr-8 lg:mr-12">
           <div className="h-10 w-10 relative flex-shrink-0">
             <Image
               src="/sme-lab-logo.jpg"
@@ -59,7 +59,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3 ml-auto">
+        <div className="flex items-center gap-3">
           <div className="flex gap-1.5 bg-muted rounded-lg p-1">
             <button
               onClick={() => handleLanguageChange('en')}
