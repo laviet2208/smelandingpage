@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "about": "About",
+    "research": "Research",
+    "team": "Team",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Software Model Engineering Lab",
+    "subtitle": "Advancing software development through automated software engineering and model-driven design",
+    "description": "At VNU-UET-FIT, we push the boundaries of software engineering with cutting-edge research in model engineering, transformation, and quality assurance.",
+    "cta": "Explore Our Research"
+  },
+  "about": {
+    "title": "About SME Lab",
+    "leader": "Lab Director",
+    "description": "The Software Model Engineering Lab (SME Lab) is a research group at VNU-UET-FIT focused on advancing automated software engineering grounded in software model engineering.",
+    "team": "Team Composition",
+    "teamInfo": "Our team includes 3 Associate Professors and 5 PhD researchers from FIT, along with 12-15 graduate and undergraduate students collaborating on research projects."
+  },
+  "research": {
+    "title": "Research Directions",
+    "coreTitle": "Core Research Directions",
+    "emergingTitle": "Emerging Research Directions",
+    "core": {
+      "modeling": {
+        "title": "Software Modeling",
+        "description": "Design of Domain-Specific Languages (DSLs), Domain-Driven Design (DDD) methodologies, requirements models, and formal semantics frameworks based on logic and graph theory."
+      },
+      "transformation": {
+        "title": "Model Transformation",
+        "description": "Specification and execution techniques, transformation validation, and artifact generation for efficient model-to-code transformations."
+      },
+      "qa": {
+        "title": "Software Quality Assurance",
+        "description": "Automatic test case generation, inter-model consistency checking, and software verification methods including model finding and RBAC constraint checking."
+      }
+    },
+    "emerging": {
+      "digital_twins": {
+        "title": "AI & Model-Driven Engineering",
+        "description": "Integrating AI and MDE to construct intelligent digital twins supporting automated monitoring, reasoning, prediction, and fault detection."
+      },
+      "llm": {
+        "title": "Large Language Models",
+        "description": "Combining LLMs with model-driven techniques to automate requirements specification, code generation, and testing."
+      },
+      "mas": {
+        "title": "Multi-Agent Systems",
+        "description": "Agent architecture & reasoning, agent communication & coordination, and multi-agent planning for complex systems."
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "professors": "Associate Professors",
+    "researchers": "PhD Researchers",
+    "students": "Graduate & Undergraduate Students"
+  },
+  "publications": {
+    "title": "Publications",
+    "journals": "International Journal Articles",
+    "conferences": "Conference Proceedings",
+    "national": "National Publications",
+    "impact": "Impact Factor",
+    "ranking": "Ranking"
+  },
+  "footer": {
+    "address": "VNU-UET-FIT, Hanoi, Vietnam",
+    "email": "hanhdd@vnu.edu.vn",
+    "rights": "All rights reserved",
+    "contact": "Contact Us"
+  }
+}

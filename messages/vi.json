@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "research": "Nghiên cứu",
+    "team": "Đội ngũ",
+    "publications": "Công bố",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Phòng Thí Nghiệm Kỹ Thuật Mô Hình Phần Mềm",
+    "subtitle": "Nâng cao phát triển phần mềm thông qua kỹ thuật tự động hóa và thiết kế dựa trên mô hình",
+    "description": "Tại VNU-UET-FIT, chúng tôi đẩy biên giới của kỹ thuật phần mềm với những nghiên cứu tiên tiến trong kỹ thuật mô hình, biến đổi mô hình và đảm bảo chất lượng.",
+    "cta": "Khám Phá Nghiên Cứu"
+  },
+  "about": {
+    "title": "Về Phòng Thí Nghiệm SME",
+    "leader": "Trưởng Phòng Thí Nghiệm",
+    "description": "Phòng Thí Nghiệm Kỹ Thuật Mô Hình Phần Mềm (SME Lab) là một nhóm nghiên cứu tại VNU-UET-FIT tập trung vào việc nâng cao kỹ thuật tự động hóa dựa trên kỹ thuật mô hình phần mềm.",
+    "team": "Cơ Cấu Đội Ngũ",
+    "teamInfo": "Đội ngũ của chúng tôi gồm 3 Phó Giáo Sư và 5 nhà nghiên cứu tiến sĩ từ FIT, cùng với 12-15 sinh viên cao học và đại học hợp tác trong các dự án nghiên cứu."
+  },
+  "research": {
+    "title": "Hướng Nghiên Cứu",
+    "coreTitle": "Hướng Nghiên Cứu Cốt Lõi",
+    "emergingTitle": "Hướng Nghiên Cứu Nổi Lên",
+    "core": {
+      "modeling": {
+        "title": "Mô Hình Hóa Phần Mềm",
+        "description": "Thiết kế Ngôn Ngữ Miền Cụ Thể (DSL), phương pháp Thiết Kế Dựa Trên Miền (DDD), mô hình yêu cầu và các khuôn khổ ngữ nghĩa hình thức dựa trên logic và lý thuyết đồ thị."
+      },
+      "transformation": {
+        "title": "Biến Đổi Mô Hình",
+        "description": "Kỹ thuật chỉ định và thực thi, xác thực biến đổi và tạo ra các mã nguồn cho các biến đổi mô hình hiệu quả."
+      },
+      "qa": {
+        "title": "Đảm Bảo Chất Lượng Phần Mềm",
+        "description": "Tự động tạo ca kiểm thử, kiểm tra tính nhất quán giữa các mô hình và các phương pháp xác minh phần mềm bao gồm tìm kiếm mô hình và kiểm tra ràng buộc RBAC."
+      }
+    },
+    "emerging": {
+      "digital_twins": {
+        "title": "AI & Kỹ Thuật Dựa Trên Mô Hình",
+        "description": "Tích hợp AI và MDE để xây dựng những bản sao kỹ thuật số thông minh hỗ trợ giám sát tự động, suy luận, dự đoán và phát hiện lỗi."
+      },
+      "llm": {
+        "title": "Mô Hình Ngôn Ngữ Lớn",
+        "description": "Kết hợp LLM với các kỹ thuật dựa trên mô hình để tự động hóa chỉ định yêu cầu, tạo mã và kiểm thử."
+      },
+      "mas": {
+        "title": "Hệ Thống Đa Tác Nhân",
+        "description": "Kiến trúc tác nhân & suy luận, giao tiếp tác nhân & phối hợp, và lập kế hoạch đa tác nhân cho các hệ thống phức tạp."
+      }
+    }
+  },
+  "team": {
+    "title": "Đội Ngũ Của Chúng Tôi",
+    "professors": "Phó Giáo Sư",
+    "researchers": "Nhà Nghiên Cứu Tiến Sĩ",
+    "students": "Sinh Viên Cao Học & Đại Học"
+  },
+  "publications": {
+    "title": "Công Bố Khoa Học",
+    "journals": "Bài Báo Đăng Tạp Chí Quốc Tế",
+    "conferences": "Báo Cáo Tại Hội Nghị",
+    "national": "Công Bố Quốc Gia",
+    "impact": "Hệ Số Ảnh Hưởng",
+    "ranking": "Xếp Hạng"
+  },
+  "footer": {
+    "address": "VNU-UET-FIT, Hà Nội, Việt Nam",
+    "email": "hanhdd@vnu.edu.vn",
+    "rights": "Bản quyền được bảo vệ",
+    "contact": "Liên Hệ"
+  }
+}
