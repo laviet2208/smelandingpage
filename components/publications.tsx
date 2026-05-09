@@ -1,12 +1,13 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 
 export function Publications() {
   const [isVisible, setIsVisible] = useState(false)
   const [activeTab, setActiveTab] = useState('journals')
   const t = useTranslations('publications')
+  const locale = useLocale()
 
   useEffect(() => {
     setIsVisible(true)
@@ -238,8 +239,11 @@ export function Publications() {
     <section id="publications" className="py-12 sm:py-16 md:py-24 bg-card">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-            {t('title')}
+          <h2
+            className={`text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 ${locale === "vi" ? "font-vietnamese-heading" : ""
+              }`}
+          >
+            {t("title")}
           </h2>
           <div className="h-1 w-16 bg-gradient-to-r from-primary to-accent rounded-full mb-6 sm:mb-8" />
 
@@ -252,11 +256,10 @@ export function Publications() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-3 sm:px-4 py-2 font-medium text-xs sm:text-sm transition-all duration-300 relative whitespace-nowrap ${
-                  activeTab === tab.id
+                className={`px-3 sm:px-4 py-2 font-medium text-xs sm:text-sm transition-all duration-300 relative whitespace-nowrap ${activeTab === tab.id
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
-                }`}
+                  }`}
               >
                 {tab.label}
                 {activeTab === tab.id && (

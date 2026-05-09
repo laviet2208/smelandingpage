@@ -2,74 +2,94 @@
   "nav": {
     "about": "Giới thiệu",
     "research": "Nghiên cứu",
-    "team": "Đội ngũ",
+    "team": "Nhân sự",
     "publications": "Công bố",
     "contact": "Liên hệ"
   },
   "hero": {
-    "title": "Phòng Thí Nghiệm Kỹ Thuật Mô Hình Phần Mềm",
-    "subtitle": "Nâng cao phát triển phần mềm thông qua kỹ thuật tự động hóa và thiết kế dựa trên mô hình",
-    "description": "Tại VNU-UET-FIT, chúng tôi đẩy biên giới của kỹ thuật phần mềm với những nghiên cứu tiên tiến trong kỹ thuật mô hình, biến đổi mô hình và đảm bảo chất lượng.",
-    "cta": "Khám Phá Nghiên Cứu"
+    "title": "Phòng thí nghiệm Kỹ nghệ Mô hình Phần mềm",
+    "subtitle": "Thúc đẩy phát triển phần mềm thông qua tự động hóa và thiết kế hướng mô hình",
+    "description": "Tại Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, SME Lab tập trung nghiên cứu các hướng tiên tiến trong kỹ nghệ mô hình, chuyển đổi mô hình và đảm bảo chất lượng phần mềm.",
+    "cta": "Khám phá nghiên cứu",
+    "learnMore": "Tìm hiểu thêm"
   },
   "about": {
-    "title": "Về Phòng Thí Nghiệm SME",
-    "leader": "Trưởng Phòng Thí Nghiệm",
-    "description": "Phòng Thí Nghiệm Kỹ Thuật Mô Hình Phần Mềm (SME Lab) là một nhóm nghiên cứu tại VNU-UET-FIT tập trung vào việc nâng cao kỹ thuật tự động hóa dựa trên kỹ thuật mô hình phần mềm.",
-    "team": "Cơ Cấu Đội Ngũ",
-    "teamInfo": "Đội ngũ của chúng tôi gồm 3 Phó Giáo Sư và 5 nhà nghiên cứu tiến sĩ từ FIT, cùng với 12-15 sinh viên cao học và đại học hợp tác trong các dự án nghiên cứu."
+    "title": "Giới thiệu về SME Lab",
+    "leader": "Trưởng phòng thí nghiệm",
+    "leaderName": "PGS. TS. Đặng Đức Hạnh",
+    "leaderDescription": "là Trưởng phòng thí nghiệm SME Lab, có nhiều kinh nghiệm trong lĩnh vực kỹ nghệ mô hình phần mềm và kỹ nghệ phần mềm tự động.",
+    "description": "Phòng thí nghiệm Kỹ nghệ Mô hình Phần mềm (SME Lab) là nhóm nghiên cứu thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, tập trung phát triển các phương pháp và công cụ tự động hóa trong kỹ nghệ phần mềm dựa trên mô hình.",
+    "team": "Thành viên",
+    "teamInfo": "Nhóm nghiên cứu gồm 3 Phó Giáo sư và 5 tiến sĩ thuộc Khoa Công nghệ Thông tin, cùng với 12–15 nghiên cứu sinh, học viên cao học và sinh viên đại học tham gia các đề tài, dự án nghiên cứu.",
+    "institution": "Đơn vị chủ quản",
+    "institutionDescription": "SME Lab trực thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN.",
+    "vision": "Tầm nhìn",
+    "visionDescription1": "SME Lab hướng tới thúc đẩy các nghiên cứu nền tảng và ứng dụng trong kỹ nghệ phần mềm tự động, dựa trên cơ sở của kỹ nghệ mô hình phần mềm. Các nghiên cứu của nhóm góp phần kết nối giữa mô hình lý thuyết và phát triển phần mềm trong thực tiễn.",
+    "visionDescription2": "Nhóm tập trung xây dựng các phương pháp phát triển phần mềm thông minh và tự động, khai thác ngôn ngữ chuyên biệt miền ứng dụng, chuyển đổi mô hình và các kỹ thuật dựa trên trí tuệ nhân tạo nhằm nâng cao chất lượng và hiệu quả phát triển phần mềm.",
+    "director": "Trưởng phòng thí nghiệm"
   },
   "research": {
-    "title": "Hướng Nghiên Cứu",
-    "coreTitle": "Hướng Nghiên Cứu Cốt Lõi",
-    "emergingTitle": "Hướng Nghiên Cứu Nổi Lên",
+    "title": "Hướng nghiên cứu",
+    "coreTitle": "Các hướng nghiên cứu chính",
+    "emergingTitle": "Các hướng nghiên cứu mới",
     "core": {
       "modeling": {
-        "title": "Mô Hình Hóa Phần Mềm",
-        "description": "Thiết kế Ngôn Ngữ Miền Cụ Thể (DSL), phương pháp Thiết Kế Dựa Trên Miền (DDD), mô hình yêu cầu và các khuôn khổ ngữ nghĩa hình thức dựa trên logic và lý thuyết đồ thị."
+        "title": "Mô hình hóa phần mềm",
+        "description": "Nghiên cứu và phát triển ngôn ngữ chuyên biệt miền ứng dụng (DSL), phương pháp thiết kế hướng miền (DDD), mô hình hóa yêu cầu và các nền tảng ngữ nghĩa hình thức dựa trên logic và lý thuyết đồ thị."
       },
       "transformation": {
-        "title": "Biến Đổi Mô Hình",
-        "description": "Kỹ thuật chỉ định và thực thi, xác thực biến đổi và tạo ra các mã nguồn cho các biến đổi mô hình hiệu quả."
+        "title": "Chuyển đổi mô hình",
+        "description": "Nghiên cứu các kỹ thuật đặc tả, thực thi và kiểm chứng chuyển đổi mô hình; đồng thời phát triển phương pháp sinh mã nguồn nhằm hỗ trợ xây dựng phần mềm hiệu quả."
       },
       "qa": {
-        "title": "Đảm Bảo Chất Lượng Phần Mềm",
-        "description": "Tự động tạo ca kiểm thử, kiểm tra tính nhất quán giữa các mô hình và các phương pháp xác minh phần mềm bao gồm tìm kiếm mô hình và kiểm tra ràng buộc RBAC."
+        "title": "Đảm bảo chất lượng phần mềm",
+        "description": "Tập trung vào tự động sinh ca kiểm thử, kiểm tra tính nhất quán giữa các mô hình và các phương pháp kiểm chứng phần mềm, bao gồm kiểm chứng mô hình và kiểm tra ràng buộc trong hệ thống RBAC."
       }
     },
     "emerging": {
       "digital_twins": {
-        "title": "AI & Kỹ Thuật Dựa Trên Mô Hình",
-        "description": "Tích hợp AI và MDE để xây dựng những bản sao kỹ thuật số thông minh hỗ trợ giám sát tự động, suy luận, dự đoán và phát hiện lỗi."
+        "title": "AI và kỹ nghệ hướng mô hình",
+        "description": "Kết hợp trí tuệ nhân tạo với kỹ nghệ hướng mô hình để xây dựng các bản sao số thông minh, hỗ trợ giám sát tự động, suy luận, dự báo và phát hiện lỗi."
       },
       "llm": {
-        "title": "Mô Hình Ngôn Ngữ Lớn",
-        "description": "Kết hợp LLM với các kỹ thuật dựa trên mô hình để tự động hóa chỉ định yêu cầu, tạo mã và kiểm thử."
+        "title": "Mô hình ngôn ngữ lớn",
+        "description": "Khai thác mô hình ngôn ngữ lớn kết hợp với các kỹ thuật hướng mô hình nhằm tự động hóa đặc tả yêu cầu, sinh mã nguồn và kiểm thử phần mềm."
       },
       "mas": {
-        "title": "Hệ Thống Đa Tác Nhân",
-        "description": "Kiến trúc tác nhân & suy luận, giao tiếp tác nhân & phối hợp, và lập kế hoạch đa tác nhân cho các hệ thống phức tạp."
+        "title": "Hệ thống đa tác tử",
+        "description": "Nghiên cứu kiến trúc và cơ chế suy luận của tác tử, giao tiếp và phối hợp giữa các tác tử, cùng các phương pháp lập kế hoạch đa tác tử cho những hệ thống phức tạp."
       }
     }
   },
   "team": {
-    "title": "Đội Ngũ Của Chúng Tôi",
-    "professors": "Phó Giáo Sư",
-    "researchers": "Nhà Nghiên Cứu Tiến Sĩ",
-    "students": "Sinh Viên Cao Học & Đại Học"
+    "title": "Đội ngũ nghiên cứu",
+    "professors": "Phó Giáo sư",
+    "researchers": "Nghiên cứu viên trình độ tiến sĩ",
+    "students": "Nghiên cứu sinh, học viên cao học và sinh viên đại học",
+    "professorsDescription": "Định hướng nghiên cứu và hướng dẫn chuyên môn trong kỹ nghệ mô hình và kỹ nghệ phần mềm tự động.",
+    "researchersDescription": "Đóng góp chuyên sâu cho các hướng nghiên cứu tiên tiến và triển khai các đề tài, dự án của nhóm.",
+    "studentsDescription": "Tham gia nghiên cứu, phát triển công cụ và thử nghiệm các giải pháp mới trong kỹ nghệ phần mềm.",
+    "labContact": "Thông tin liên hệ",
+    "labHead": "Trưởng phòng thí nghiệm",
+    "labHeadName": "PGS. TS. Đặng Đức Hạnh",
+    "email": "Email",
+    "institution": "Đơn vị chủ quản",
+    "institutionLine1": "Đại học Quốc gia Hà Nội",
+    "institutionLine2": "Trường Đại học Công nghệ",
+    "institutionLine3": "Khoa Công nghệ Thông tin"
   },
   "publications": {
-    "title": "Công Bố Khoa Học",
-    "journals": "Bài Báo Đăng Tạp Chí Quốc Tế",
-    "conferences": "Báo Cáo Tại Hội Nghị",
-    "national": "Công Bố Quốc Gia",
-    "impact": "Hệ Số Ảnh Hưởng",
-    "ranking": "Xếp Hạng"
+    "title": "Công bố khoa học",
+    "journals": "Bài báo tạp chí quốc tế",
+    "conferences": "Bài báo hội nghị",
+    "national": "Công bố trong nước",
+    "impact": "Chỉ số ảnh hưởng",
+    "ranking": "Xếp hạng"
   },
   "footer": {
-    "address": "VNU-UET-FIT, Hà Nội, Việt Nam",
+    "address": "Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, Hà Nội, Việt Nam",
     "email": "hanhdd@vnu.edu.vn",
-    "rights": "Bản quyền được bảo vệ",
-    "contact": "Liên Hệ"
+    "rights": "Bảo lưu mọi quyền",
+    "contact": "Liên hệ"
   }
 }

@@ -2,12 +2,12 @@
 
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 
 export function Hero() {
   const [isLoaded, setIsLoaded] = useState(false)
   const t = useTranslations('hero')
-
+  const locale = useLocale()
   useEffect(() => {
     setIsLoaded(true)
   }, [])
@@ -19,7 +19,10 @@ export function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
           <div className={`transition-all duration-1000 transform ${isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-pretty text-foreground leading-tight mb-4 sm:mb-6">
+            <h1
+              className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-pretty text-foreground leading-tight mb-4 sm:mb-6 ${locale === 'vi' ? 'font-vietnamese-heading' : ''
+                }`}
+            >
               {t('title')}
             </h1>
 
@@ -32,7 +35,7 @@ export function Hero() {
                 {t('cta')}
               </button>
               <button className="px-6 sm:px-8 py-2.5 sm:py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/10 transition-all duration-300 text-sm sm:text-base">
-                Learn More
+                {t('learnMore')}
               </button>
             </div>
           </div>

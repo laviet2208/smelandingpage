@@ -10,14 +10,23 @@
     "title": "Software Model Engineering Lab",
     "subtitle": "Advancing software development through automated software engineering and model-driven design",
     "description": "At VNU-UET-FIT, we push the boundaries of software engineering with cutting-edge research in model engineering, transformation, and quality assurance.",
-    "cta": "Explore Our Research"
+    "cta": "Explore Our Research",
+    "learnMore": "Learn More"
   },
   "about": {
     "title": "About SME Lab",
     "leader": "Lab Director",
+    "leaderName": "Assoc. Prof. Dang Duc Hanh",
+    "leaderDescription": "leads the SME Lab with extensive expertise in software model engineering and automated software engineering.",
     "description": "The Software Model Engineering Lab (SME Lab) is a research group at VNU-UET-FIT focused on advancing automated software engineering grounded in software model engineering.",
     "team": "Team Composition",
-    "teamInfo": "Our team includes 3 Associate Professors and 5 PhD researchers from FIT, along with 12-15 graduate and undergraduate students collaborating on research projects."
+    "teamInfo": "Our team includes 3 Associate Professors and 5 PhD researchers from FIT, along with 12-15 graduate and undergraduate students collaborating on research projects.",
+    "institution": "Institution",
+    "institutionDescription": "Part of Vietnam National University, University of Engineering and Technology, Faculty of Information Technology.",
+    "vision": "Our Vision",
+    "visionDescription1": "We are committed to advancing the frontier of software engineering through rigorous research in automated software engineering grounded in software model engineering. Our work bridges the gap between theoretical models and practical software development, creating innovative solutions for the industry.",
+    "visionDescription2": "We focus on creating intelligent, automated approaches to software development that leverage domain-specific languages, model transformations, and AI-driven techniques to improve software quality and development efficiency.",
+    "director": "Lab Director"
   },
   "research": {
     "title": "Research Directions",
@@ -48,7 +57,7 @@
       },
       "mas": {
         "title": "Multi-Agent Systems",
-        "description": "Agent architecture & reasoning, agent communication & coordination, and multi-agent planning for complex systems."
+        "description": "Agent architecture and reasoning, agent communication and coordination, and multi-agent planning for complex systems."
       }
     }
   },
@@ -56,7 +65,18 @@
     "title": "Our Team",
     "professors": "Associate Professors",
     "researchers": "PhD Researchers",
-    "students": "Graduate & Undergraduate Students"
+    "students": "Graduate & Undergraduate Students",
+    "professorsDescription": "Leading-edge research and mentorship in model engineering and automated software engineering.",
+    "researchersDescription": "Advanced research contributions and project development in cutting-edge research areas.",
+    "studentsDescription": "PhD, Master's, and undergraduate students working on innovative research projects.",
+    "labContact": "Lab Contact",
+    "labHead": "Lab Head",
+    "labHeadName": "Assoc. Prof. Dang Duc Hanh",
+    "email": "Email",
+    "institution": "Institution",
+    "institutionLine1": "Vietnam National University",
+    "institutionLine2": "University of Engineering and Technology",
+    "institutionLine3": "Faculty of Information Technology"
   },
   "publications": {
     "title": "Publications",
