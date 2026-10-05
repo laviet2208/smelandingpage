@@ -126,6 +126,38 @@
 
 .font-vietnamese-heading {
   font-family: Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  font-weight: 400;
   letter-spacing: -0.02em;
+}
+
+section[id], footer[id] {
+  scroll-margin-top: 5rem;
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .section-content {
+    animation: enter-content 350ms ease-out;
+  }
+}
+
+@keyframes enter-content {
+  from { transform: translateY(6px); }
+  to { transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }

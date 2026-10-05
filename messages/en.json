@@ -4,23 +4,24 @@
     "research": "Research",
     "team": "Team",
     "publications": "Publications",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menu": "Toggle navigation menu"
   },
   "hero": {
-    "title": "Software Model Engineering Lab",
+    "title": "Software and Systems Model Engineering Lab",
     "subtitle": "Advancing software development through automated software engineering and model-driven design",
     "description": "At VNU-UET-FIT, we push the boundaries of software engineering with cutting-edge research in model engineering, transformation, and quality assurance.",
     "cta": "Explore Our Research",
     "learnMore": "Learn More"
   },
   "about": {
-    "title": "About SME Lab",
+    "title": "About SSME LAB",
     "leader": "Lab Director",
     "leaderName": "Assoc. Prof. Dang Duc Hanh",
-    "leaderDescription": "leads the SME Lab with extensive expertise in software model engineering and automated software engineering.",
-    "description": "The Software Model Engineering Lab (SME Lab) is a research group at VNU-UET-FIT focused on advancing automated software engineering grounded in software model engineering.",
+    "leaderDescription": "leads the SSME LAB with extensive expertise in software model engineering and automated software engineering.",
+    "description": "The Software and Systems Model Engineering Lab (SSME LAB) is a research group at VNU-UET-FIT focused on advancing automated software engineering grounded in software model engineering.",
     "team": "Team Composition",
-    "teamInfo": "Our team includes 3 Associate Professors and 5 PhD researchers from FIT, along with 12-15 graduate and undergraduate students collaborating on research projects.",
+    "teamInfo": "Our team brings together academics and researchers from universities, institutes, and research centers, alongside graduate and undergraduate students collaborating on research projects.",
     "institution": "Institution",
     "institutionDescription": "Part of Vietnam National University, University of Engineering and Technology, Faculty of Information Technology.",
     "vision": "Our Vision",
@@ -90,6 +91,14 @@
     "address": "VNU-UET-FIT, Hanoi, Vietnam",
     "email": "hanhdd@vnu.edu.vn",
     "rights": "All rights reserved",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "about": "About SSME LAB",
+    "description": "Software and Systems Model Engineering Lab at VNU-UET-FIT, advancing automated software and systems engineering research.",
+    "quickLinks": "Quick Links",
+    "location": "Location"
+  },
+  "members": {
+    "core": "Core Members",
+    "committee": "Standing Committee"
   }
 }

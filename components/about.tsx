@@ -1,22 +1,18 @@
 'use client'
 
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+
 import { useTranslations, useLocale } from 'next-intl'
 
 export function About() {
-  const [isVisible, setIsVisible] = useState(false)
   const t = useTranslations('about')
   const locale = useLocale()
 
-  useEffect(() => {
-    setIsVisible(true)
-  }, [])
 
   return (
     <section id="about" className="py-12 sm:py-16 md:py-24 bg-card">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className="section-content">
           <h2
             className={`text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 ${locale === "vi" ? "font-vietnamese-heading" : ""
               }`}
@@ -42,7 +38,7 @@ export function About() {
               </div>
 
               <div>
-                <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2">Institution</h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2">{t('institution')}</h3>
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('institutionDescription')}
                 </p>
@@ -68,6 +64,7 @@ export function About() {
                     alt={t("leaderName")}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 640px) 160px, 208px"
                   />
                 </div>
                 <p className="mt-3 sm:mt-4 font-semibold text-center text-foreground text-sm sm:text-base">{t('leaderName')}</p>

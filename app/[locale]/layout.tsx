@@ -12,8 +12,8 @@ export async function generateMetadata({
   const { locale } = await params
   return {
     title: locale === 'vi'
-      ? 'SME Lab - Kỹ Thuật Mô Hình Phần Mềm'
-      : 'SME Lab - Software Model Engineering',
+      ? 'SSME LAB - Công nghệ Mô hình Phần mềm và Hệ thống'
+      : 'SSME LAB - Software and Systems Model Engineering',
     description: locale === 'vi'
       ? 'Nâng cao phát triển phần mềm thông qua kỹ thuật tự động hóa và thiết kế dựa trên mô hình tại VNU-UET-FIT'
       : 'Advancing software development through automated software engineering and model-driven design at VNU-UET-FIT',

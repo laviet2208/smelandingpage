@@ -1,17 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 
 export function Research() {
   const [activeTab, setActiveTab] = useState('core')
-  const [isVisible, setIsVisible] = useState(false)
   const t = useTranslations('research')
   const locale = useLocale()
 
-  useEffect(() => {
-    setIsVisible(true)
-  }, [])
 
   const coreAreas = [
     {
@@ -46,7 +42,7 @@ export function Research() {
   return (
     <section id="research" className="py-12 sm:py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className="section-content">
           <h2
             className={`text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 ${locale === "vi" ? "font-vietnamese-heading" : ""
               }`}

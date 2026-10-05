@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useEffect, useState, useTransition } from 'react'
 
 export function Header() {
   const t = useTranslations('nav')
@@ -12,6 +12,16 @@ export function Header() {
   const router = useRouter()
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const [isPending, startTransition] = useTransition()
+
+  useEffect(() => {
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setMobileMenuOpen(false)
+    }
+    document.addEventListener('keydown', closeOnEscape)
+    return () => document.removeEventListener('keydown', closeOnEscape)
+  }, [])
 
   const handleLanguageChange = (newLocale: string) => {
     if (newLocale === locale) return
@@ -21,7 +31,8 @@ export function Header() {
       pathWithoutLocale = pathname.slice(3) || '/'
     }
     
-    router.push(`/${newLocale}${pathWithoutLocale}`)
+    setMobileMenuOpen(false)
+    startTransition(() => router.push(`/${newLocale}${pathWithoutLocale}${window.location.search}${window.location.hash}`, { scroll: false }))
   }
 
   const navLinks = [
@@ -35,19 +46,20 @@ export function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group flex-shrink-0 mr-8 lg:mr-12">
+        <Link href={`/${locale}`} aria-label="SSME LAB" className="flex items-center gap-2 group flex-shrink-0 mr-3 lg:mr-6">
           <div className="h-10 w-10 relative flex-shrink-0">
             <Image
-              src="/sme-lab-logo.jpg"
-              alt="SME Lab Logo"
+              src="/ssme-lab-logo.webp"
+              alt="SSME LAB Logo"
               fill
+              sizes="40px"
               className="object-contain"
             />
           </div>
-          <span className="font-bold text-lg text-primary hidden sm:inline whitespace-nowrap">SME Lab</span>
+          <span className="font-bold text-lg text-primary hidden sm:inline whitespace-nowrap">SSME LAB</span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+        <nav className="hidden lg:flex items-center gap-6 lg:gap-8">
           {navLinks.map(link => (
             <Link 
               key={link.href}
@@ -63,6 +75,9 @@ export function Header() {
           <div className="flex gap-1.5 bg-muted rounded-lg p-1">
             <button
               onClick={() => handleLanguageChange('en')}
+              disabled={isPending}
+              aria-pressed={locale === 'en'}
+              aria-label="English"
               className={`px-2.5 py-1 rounded text-sm font-medium transition-all ${
                 locale === 'en'
                   ? 'bg-primary text-primary-foreground'
@@ -73,6 +88,9 @@ export function Header() {
             </button>
             <button
               onClick={() => handleLanguageChange('vi')}
+              disabled={isPending}
+              aria-pressed={locale === 'vi'}
+              aria-label="Tiếng Việt"
               className={`px-2.5 py-1 rounded text-sm font-medium transition-all ${
                 locale === 'vi'
                   ? 'bg-primary text-primary-foreground'
@@ -85,7 +103,10 @@ export function Header() {
 
           <button 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-primary p-2 hover:bg-muted rounded-lg transition-colors"
+            aria-label={t('menu')}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-navigation"
+            className="lg:hidden text-primary p-2 hover:bg-muted rounded-lg transition-colors"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -95,7 +116,7 @@ export function Header() {
       </div>
 
       {mobileMenuOpen && (
-        <nav className="md:hidden bg-white dark:bg-slate-900 border-b border-border">
+        <nav id="mobile-navigation" className="lg:hidden bg-white dark:bg-slate-900 border-b border-border">
           <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-2">
             {navLinks.map(link => (
               <Link

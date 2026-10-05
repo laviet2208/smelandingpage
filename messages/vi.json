@@ -4,27 +4,28 @@
     "research": "Nghiên cứu",
     "team": "Nhân sự",
     "publications": "Công bố",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "menu": "Mở hoặc đóng menu điều hướng"
   },
   "hero": {
-    "title": "Phòng thí nghiệm Kỹ nghệ Mô hình Phần mềm",
+    "title": "Công nghệ Mô hình Phần mềm và Hệ thống",
     "subtitle": "Thúc đẩy phát triển phần mềm thông qua tự động hóa và thiết kế hướng mô hình",
-    "description": "Tại Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, SME Lab tập trung nghiên cứu các hướng tiên tiến trong kỹ nghệ mô hình, chuyển đổi mô hình và đảm bảo chất lượng phần mềm.",
+    "description": "Tại Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, SSME LAB tập trung nghiên cứu các hướng tiên tiến trong kỹ nghệ mô hình, chuyển đổi mô hình và đảm bảo chất lượng phần mềm.",
     "cta": "Khám phá nghiên cứu",
     "learnMore": "Tìm hiểu thêm"
   },
   "about": {
-    "title": "Giới thiệu về SME Lab",
+    "title": "Giới thiệu về SSME LAB",
     "leader": "Trưởng phòng thí nghiệm",
     "leaderName": "PGS. TS. Đặng Đức Hạnh",
     "leaderDescription": "là Trưởng phòng thí nghiệm, có nhiều kinh nghiệm trong lĩnh vực kỹ nghệ mô hình phần mềm và kỹ nghệ phần mềm tự động.",
-    "description": "Phòng thí nghiệm Kỹ nghệ Mô hình Phần mềm (SME Lab) là nhóm nghiên cứu thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, tập trung phát triển các phương pháp và công cụ tự động hóa trong kỹ nghệ phần mềm dựa trên mô hình.",
+    "description": "Phòng thí nghiệm Công nghệ Mô hình Phần mềm và Hệ thống (SSME LAB) là nhóm nghiên cứu thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, tập trung phát triển các phương pháp và công cụ tự động hóa trong kỹ nghệ phần mềm dựa trên mô hình.",
     "team": "Thành viên",
-    "teamInfo": "Nhóm nghiên cứu gồm 3 Phó Giáo sư và 5 tiến sĩ thuộc Khoa Công nghệ Thông tin, cùng với 12–15 nghiên cứu sinh, học viên cao học và sinh viên đại học tham gia các đề tài, dự án nghiên cứu.",
+    "teamInfo": "Nhóm quy tụ các giảng viên và nhà nghiên cứu từ nhiều trường đại học, viện và trung tâm nghiên cứu, cùng nghiên cứu sinh, học viên cao học và sinh viên tham gia các đề tài, dự án.",
     "institution": "Đơn vị chủ quản",
-    "institutionDescription": "SME Lab trực thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN.",
+    "institutionDescription": "SSME LAB trực thuộc Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN.",
     "vision": "Tầm nhìn",
-    "visionDescription1": "SME Lab hướng tới thúc đẩy các nghiên cứu nền tảng và ứng dụng trong kỹ nghệ phần mềm tự động, dựa trên cơ sở của kỹ nghệ mô hình phần mềm. Các nghiên cứu của nhóm góp phần kết nối giữa mô hình lý thuyết và phát triển phần mềm trong thực tiễn.",
+    "visionDescription1": "SSME LAB hướng tới thúc đẩy các nghiên cứu nền tảng và ứng dụng trong kỹ nghệ phần mềm tự động, dựa trên cơ sở của kỹ nghệ mô hình phần mềm. Các nghiên cứu của nhóm góp phần kết nối giữa mô hình lý thuyết và phát triển phần mềm trong thực tiễn.",
     "visionDescription2": "Nhóm tập trung xây dựng các phương pháp phát triển phần mềm thông minh và tự động, khai thác ngôn ngữ chuyên biệt miền ứng dụng, chuyển đổi mô hình và các kỹ thuật dựa trên trí tuệ nhân tạo nhằm nâng cao chất lượng và hiệu quả phát triển phần mềm.",
     "director": "Trưởng phòng thí nghiệm"
   },
@@ -90,6 +91,14 @@
     "address": "Khoa Công nghệ Thông tin, Trường Đại học Công nghệ, ĐHQGHN, Hà Nội, Việt Nam",
     "email": "hanhdd@vnu.edu.vn",
     "rights": "Bảo lưu mọi quyền",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "about": "Giới thiệu về SSME LAB",
+    "description": "Phòng thí nghiệm Công nghệ Mô hình Phần mềm và Hệ thống tại VNU-UET-FIT, nghiên cứu tự động hóa phát triển phần mềm và hệ thống.",
+    "quickLinks": "Liên kết nhanh",
+    "location": "Địa chỉ"
+  },
+  "members": {
+    "core": "Thành viên chính",
+    "committee": "Ban thường trực"
   }
 }
