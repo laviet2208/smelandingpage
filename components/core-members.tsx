@@ -22,7 +22,7 @@ const members = [
   ['TS. Nguyễn Đức Hiếu', 'Dr. Nguyen Duc Hieu', 'Học viện Kỹ thuật Mật mã', 'Academy of Cryptography Techniques'],
   ['TS. Lê Văn Vinh', 'Dr. Le Van Vinh', 'Trường Đại học Công nghệ Kỹ thuật Vinh', 'Vinh University of Engineering and Technology'],
   ['TS. Lê Minh Đức', 'Dr. Le Minh Duc', 'Chương trình liên kết đào tạo Swinburne Việt Nam', 'Swinburne Vietnam Alliance Program'],
-  ['ThS. La Trịnh Hoàng Việt', 'La Trinh Hoang Viet, Master’s degree', 'Trung tâm Quy hoạch và Điều tra Tài nguyên nước Quốc gia', 'National Center for Water Resources Planning and Investigation'],
+  ['ThS. La Trịnh Hoàng Việt', 'La Trinh Hoang Viet, Master’s degree', 'Trung tâm Quy hoạch và Điều tra Tài nguyên nước Quốc gia, Bộ Nông nghiệp và Môi trường', 'National Center for Water Resources Planning and Investigation, Ministry of Agriculture and Environment'],
 ] as const
 
 function splitName(label: string, isVietnamese: boolean) {
